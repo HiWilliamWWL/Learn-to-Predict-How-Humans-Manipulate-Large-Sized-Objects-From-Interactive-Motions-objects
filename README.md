@@ -1,1 +1,1 @@
-# how-humans-manipulate-large-sized-objects
+# Learn to Predict How Humans Manipulate Large-Sized Objects From Interactive Motions
