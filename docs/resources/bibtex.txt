@@ -1,0 +1,10 @@
+@article{wan2022learn,
+title={Learn to Predict How Humans Manipulate Large-Sized Objects From Interactive Motions},
+author={Wan, Weilin and Yang, Lei and Liu, Lingjie and Zhang, Zhuoying and Jia, Ruixing and Choi, Yi-King and Pan, Jia and Theobalt, Christian and Komura, Taku and Wang, Wenping},
+journal={IEEE Robotics and Automation Letters},
+volume={7},
+number={2},
+pages={4702--4709},
+year={2022},
+publisher={IEEE}
+}	
