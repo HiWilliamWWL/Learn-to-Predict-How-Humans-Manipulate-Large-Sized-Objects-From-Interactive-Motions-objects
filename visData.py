@@ -69,8 +69,7 @@ with open(pathName, 'rb') as f:
     
     
     startFrame = 0
-    endFrame = len(dataList[0]) - 1   # len(dataList[0]) - 1
-    #endFrame = startFrame + 2
+    endFrame = len(dataList[0]) - 1
     
     videoLength = endFrame - startFrame
     skeledonData = dataList[0][startFrame:endFrame:1][:]
