@@ -4,8 +4,8 @@ Please checkout this [link](https://drive.google.com/drive/folders/174k-o7UFuIZg
 
 Here is a tiny tool to view the samples of our dataset:
 
-
-> python visData.py
+::
+  python visData.py
 
 
 More materials coming soon
