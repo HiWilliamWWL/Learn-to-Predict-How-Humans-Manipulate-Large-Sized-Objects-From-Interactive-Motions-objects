@@ -69,14 +69,12 @@ with open(pathName, 'rb') as f:
     
     
     startFrame = 0
-    endFrame = len(dataList[0]) - 1
+    endFrame = len(dataList[0])
     
-    videoLength = endFrame - startFrame
     skeledonData = dataList[0][startFrame:endFrame:1][:]
-    videoLength = len(skeledonData)
-    skeledonData = np.array(skeledonData).reshape((videoLength, 21, 3))
+    skeledonData = np.array(skeledonData).reshape((len(dataList[0]), 21, 3))
     
     objData = dataList[3][startFrame:endFrame:1][:]
-    objData = np.array(objData).reshape((videoLength, 12, 3))
+    objData = np.array(objData).reshape((len(dataList[0]), 12, 3))
     
     visualize(skeledonData, objData, 0)
