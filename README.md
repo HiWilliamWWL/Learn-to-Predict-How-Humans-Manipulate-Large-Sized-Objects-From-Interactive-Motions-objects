@@ -22,9 +22,9 @@ To extract SMPL parameters of human skeleton motion:
 2. Follow the configuration settings in `render_mesh.py`.
 3. Run the following command to utilize SMPLify ([SMPLify website](https://smplify.is.tue.mpg.de)) for extracting SMPL parameters. This process may be time-consuming.
 
-    
+
     python render_mesh.py
-    
+
 
 4. The SMPL meshes and parameters will be saved in `./data/SAMPLE_NAME/SMPL_result/`.
 5. To view the SMPL joint motions, use:
